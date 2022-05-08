@@ -1,0 +1,53 @@
+.todo {
+    display: flex;
+    flex-direction: column;
+    max-width: 1360px;
+    height: 100vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.todo__container {
+    padding: 70px 100px;
+    display: flex;
+    gap: 100px;
+    border: 2px solid var(--blue);
+    border-radius: 6px;
+}
+
+.todo__panel {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.todo__title {
+    margin-bottom: 18px;
+    font-size: 55px;
+    color: var(--light-blue);
+}
+
+.todo__task {
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: var(--light-blue);
+}
+
+.todo__add-btn {
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 6px;
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+
+.todo__input {
+    width: 100%;
+    font-size: 30px;
+    border-bottom: 1px solid var(--blue);
+    margin-bottom: 50px;
+    color: var(--blue);
+}

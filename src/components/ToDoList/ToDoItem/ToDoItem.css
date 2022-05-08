@@ -1,0 +1,36 @@
+.item {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.item__title {
+    font-size: 25px;
+    color: var(--light-blue);
+}
+
+.item__btn-delete {
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 5px 15px;
+    color: var(--white);
+    background-color: var(--light-blue);
+}
+
+.item__state {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.item__checkbox {
+    width: 25px;
+    height: 25px;
+}
